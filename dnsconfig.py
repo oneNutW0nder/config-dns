@@ -145,5 +145,6 @@ if __name__ == "__main__":
     # backup the current zone files
     backup(zoneFile, reverseZoneFile)
 
+    # Create new zone files
     createZoneFile(zoneFile, header, hosts, domains)
     createReverseZoneFile(reverseZoneFile, header, hosts, domains)
