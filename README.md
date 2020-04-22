@@ -24,7 +24,7 @@ Everything you need to configure can be found in the `header.conf` and `host.con
 
 3. Run the script
 
-    After you have configured the previous files you are ready to run the script. The script will use the configuration files to build your new zone files. Before creating the new files, the script will backup your current configuration to the directory you ran the script from. The backup will have the name of `YOUR_FILES_NAME.bak`. The new zone files that are created will have the same names as before.
+    After you have configured the previous files you are ready to run the script. The script will use the configuration files to build your new zone files. Before creating the new files, the script will backup your current configuration to the directory you ran the script from. The backup will have the name of `zoneFile.bak` and `reverseFile.bak`. The new zone files that are created will have the same names as before.
 
     Please note, you should never trust a tool to perform backups for you. It is your responsibility to ensure your data is backed up prior to running this tool. 
 
